@@ -1,17 +1,14 @@
 # Data Cleaning & EDA for Data Analysis
 
-Hands-on practice in cleaning messy tabular data, exploring it visually, engineering features, and checking whether the cleaned data is actually useful for modelling. The main case study is a messy **house-sales dataset** (1,200 rows, 36 columns); a **Titanic** notebook is included as a starting point.
+Cleaning a messy **house-sales dataset** (1,200 rows, 36 columns), exploring it visually, engineering features, and checking whether the cleaned data is actually useful for modelling.
 
 ## What's inside
 
 | File | Description |
 |---|---|
-| `clean.ipynb` | Titanic starter notebook (imports + data load, cleaning not yet done) |
-| `clean_1.ipynb` | First pass at cleaning the house data: duplicates, median/mode/constant imputation, dtype fixes |
 | `clean_O.ipynb` | Full working notebook: cleaning, EDA, outlier checks, feature engineering, validation |
 | `clean_O_resolved.ipynb` | **Final, tidy version** – sectioned, leakage-free, with modelling baseline and evaluation |
-| `Titanic-Dataset.csv` | Titanic passengers (891 rows, 12 columns) |
-| `train_o.csv`, `train_0.csv` | Raw messy house data (identical copies, 1,200 rows) |
+| `train_o.csv` | Raw messy house data (1,200 rows, 36 columns) |
 | `clean_train.csv` | Cleaned output with engineered features (1,171 rows, 40 columns) |
 
 > Start with **`clean_O_resolved.ipynb`**.
